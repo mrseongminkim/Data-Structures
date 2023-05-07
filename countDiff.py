@@ -7,4 +7,5 @@ def countDiff(self):
             d[val] += 1
         else:
             d[val] = 1
+        node = node.next
         return d
